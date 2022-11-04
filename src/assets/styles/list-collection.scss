@@ -1,0 +1,51 @@
+@import "global";
+
+.list-collection {
+  overflow-x: auto;
+  width: 100%;
+
+  table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+
+    thead {
+      color: $text-secondary;
+
+      tr {
+        th {
+          padding-bottom: 20px;
+        }
+      }
+    }
+
+    tbody {
+      text-align: center;
+
+      tr {
+        td {
+          border-style: solid none;
+          padding: 20px;
+          background-color: white;
+          vertical-align: middle;
+
+          img {
+            max-height: 50px;
+          }
+        }
+
+        td:first-child {
+          border-left-style: solid;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+        }
+        td:last-child {
+          border-right-style: solid;
+          border-bottom-right-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+@import "reset";
+
+$primary-color: #675ac9;
+$text-secondary: rgb(148, 148, 148);
+$background-color: #f4f8f9;
+
+@font-face {
+  font-family: ralewayRegular;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+body {
+  background-color: $background-color;
+  font-family: ralewayRegular, Arial, sans-serif;
+  line-height: 1.3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary-color;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+button {
+  background: none;
+  border: none;
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  color: $primary-color;
+}
+
+button:disabled,
+button[disabled] {
+  color: $text-secondary;
+}

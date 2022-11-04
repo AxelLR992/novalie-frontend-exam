@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Novalie FrontEnd Exam
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Web Application developed using ReactJS as Frontend Exam for applying to Novalie Business Consulting.
 
-## Available Scripts
+It consists on a simple Users CRUD, with the following features:
 
-In the project directory, you can run:
+- Shows the records in list or grid.
+- It has pagination of 10 in 10.
+- Allows you to create, delete, read and update users.
+- It supports multiple emails for every user.
+- It requires a profile picture per user.
 
-### `yarn start`
+It uses the following technologies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **TypeScript:** Is the main language, used to interact with the logic of the application.
+- **React JS:** The library to interact with the FrontEnd.
+- **Material Design Icons:** Community Icons inspired by [Material Design](https://m2.material.io/design).
+- **Axios:** HTTP Client.
+- **SASS:** Styles pre-processor.
+- **SweetAlert2:** Beautiful alerts.
+- **React-Toastify:** Easy to use notifications.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The structure of this project is inspired by [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/). Also, you can find a Changelog at the root of the project, that follows [Semantic Versioning](https://semver.org/) and [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-### `yarn test`
+There is a .env at the project's root folder, for flexibility purposes. This way, is easier to Novalie to test this project. Please, if you want to fork this repository, remove this file from the repository and instead put a .env.example to avoid security leaks.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to run this application 🚗
 
-### `yarn build`
+First, check that you have the following software installed in your computer:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Git.
+- Node.
+- NPM.
+- Yarn.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can install yarn using the command `npm i -g yarn`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone this repository in your computer using `git clone <repository-url>`.
 
-### `yarn eject`
+Then, install the project's dependencies using the command `yarn`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Finally, run the proyect using `yarn start`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment 🚀
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To deploy this project to a production environment, please run the command `yarn build`, and upload the files located at the `build/` directory to a web server, like Apache.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contact
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Please, don't hesitate in contact me through [my GitHub account](https://github.com/AxelLR992) if you have any question about this project.

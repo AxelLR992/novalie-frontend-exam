@@ -1,0 +1,53 @@
+@import "global";
+
+.grid-collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
+
+  .card {
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    h2 {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    h5 {
+      color: $text-secondary;
+      font-size: 10px;
+      text-align: center;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 13px;
+    }
+
+    .actions {
+      margin-top: 5px;
+      text-align: right;
+    }
+
+    img {
+      max-height: 100px;
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .grid-collection {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+    .grid-collection {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }

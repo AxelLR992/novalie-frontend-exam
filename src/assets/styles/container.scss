@@ -1,0 +1,34 @@
+.container {
+  max-width: 100%;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// Small
+// @media only screen and (min-width: 576px) {
+//   .container {
+//     max-width: 100%;
+//   }
+// }
+
+// Medium
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+// Large
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+// Extra large
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
